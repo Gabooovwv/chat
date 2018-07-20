@@ -1,0 +1,11 @@
+* {padding: 0; margin: 0}
+ul {margin: 10px; padding: 10px; display: block; overflow: scroll; border: 1px solid #efefef}
+li {list-style: none}
+li:nth-child(odd) {background-color: #efefef}
+li.left {text-align: left}
+li.right {text-align: right}
+form {position: absolute; bottom: 0; display: flex; align-items: stretch; width: 100%}
+#guestName, #message, #sendButton {margin: 10px; padding: 10px}
+#guestName {flex-grow: 1}
+#message {flex-grow: 10}
+#sendButton {flex-grow: 2}

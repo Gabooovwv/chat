@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Socket.IO chat</title>
+        <link href="style.css"rel="stylesheet" />
+    </head>
+
+    <body>
+        <ul id="textArea"></ul>
+
+        <form>
+            <input id="guestName" autocomplete="off" value="guestName" />
+            <input id="message" autocomplete="off" autofocus placeholder="Type a message" />
+            <button id="sendButton"> Send </button>
+        </form>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.17/socket.io.js"></script>
+        <script type="module" src="./main.js"></script>
+    </body>
+</html>
